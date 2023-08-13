@@ -15,11 +15,7 @@ const File = (props) => {
       className={isSelected ? classes["file-selected"] : classes.file}
       onClick={() => ctx.setSelected(props.nodeRef)}
     >
-      {spaceJsx.map((space) => {
-        {
-          return space;
-        }
-      })}
+      {spaceJsx.map((space) => {return space})}
       {props.name}
     </div>
   );
