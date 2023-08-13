@@ -19,6 +19,7 @@ const Folder = (props) => {
     >
       {spaceJsx.map((space) => {return space})}
       <img
+        alt="expand/collapse icon"
         className={classes.image}
         src={props.nodeRef.isCollapsed ? collpaseImage : expandImage}
         onClick={() => ctx.collapseOrExpand(props.nodeRef)}
