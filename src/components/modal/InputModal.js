@@ -12,6 +12,7 @@ const InputModal = (props) => {
         onChange={(e) => {
           setName(e.target.value);
         }}
+        autoFocus
       ></input>
       <div className={classes.buttons}>
         <button
