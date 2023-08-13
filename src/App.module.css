@@ -1,0 +1,33 @@
+.main-div {
+  width: 70%;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #15232d;
+  color: #b2b2b2;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.title {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.button-div {
+  justify-self: end;
+  margin-top: 5px;
+}
+
+.file-structure {
+  grid-column: 1/-1;
+  margin-left: 10px;
+  min-height: 90vh;
+}
+
+.credits {
+  color: #b2b2b2;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}

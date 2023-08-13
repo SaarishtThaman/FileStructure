@@ -1,0 +1,11 @@
+.image {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  filter: invert(70%);
+}
+
+.image:hover,
+.image:active {
+  filter: invert(90%);
+}
